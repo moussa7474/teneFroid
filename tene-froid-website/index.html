@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TENE FROID : spécialistes en réfrigération, climatisation et énergie à Bamako." />
+  <title>TENE FROID - Accueil</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="assets/images/logo_tene_froid.jpg" alt="Logo de l'entreprise TENE FROID" class="logo" />
+      <h1>TENE FROID</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#apropos">À Propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil" class="hero">
+    <div class="overlay"></div>
+    <h2>Spécialistes en Réfrigération, Climatisation et Énergie</h2>
+    <p>Des solutions durables et performantes pour tous vos besoins.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Nos Services</h2>
+    <div class="services-container">
+      <div class="service">
+        <img src="assets/images/1.png" alt="Système de réfrigération industrielle" />
+        <h3>Réfrigération</h3>
+        <p>Installation et maintenance de systèmes de réfrigération industrielle et commerciale.</p>
+      </div>
+      <div class="service">
+        <img src="assets/images/2.png" alt="Climatisation pour maison ou bureau" />
+        <h3>Climatisation</h3>
+        <p>Solutions de climatisation pour maisons, bureaux et entreprises.</p>
+      </div>
+      <div class="service">
+        <img src="assets/images/3.png" alt="Installation électrique et énergie" />
+        <h3>Énergie & Électricité</h3>
+        <p>Optimisation énergétique et installations électriques adaptées.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="apropos" class="about">
+    <h2>À Propos</h2>
+    <div class="about-container">
+      <p>
+        TENE FROID est une entreprise spécialisée dans la réfrigération, la climatisation, les solutions électriques et l'optimisation énergétique. Fondée en 2010 à Bamako, nous avons évolué pour devenir un acteur clé dans notre secteur.
+      </p>
+      <div class="about-details">
+        <p><strong>Mission :</strong> Offrir des solutions performantes et sur mesure pour le refroidissement, la climatisation et l’efficacité énergétique.</p>
+        <p><strong>Vision :</strong> Répondre aux besoins des particuliers et entreprises en Afrique de l’Ouest en matière de technologies de refroidissement.</p>
+        <p><strong>Valeurs :</strong> Fiabilité, Innovation, Écologie.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contactez-nous</h2>
+    <p>Nous sommes à votre disposition pour répondre à toutes vos questions. N'hésitez pas à nous contacter !</p>
+    <form action="contact.php" method="POST">
+        <div class="form-group">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+    
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TENE FROID - Tous droits réservés.</p>
+    <div class="social-links">
+      <a href="https://facebook.com/tenefroid" target="_blank">Facebook</a>
+      <a href="https://twitter.com/tenefroid" target="_blank">Twitter</a>
+      <a href="https://linkedin.com/company/tenefroid" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+</body>
+</html>
